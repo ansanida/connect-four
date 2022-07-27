@@ -1,0 +1,25 @@
+* {
+  border: 0;
+  padding: 0;
+}
+#connect4board {
+  background: #a1c9ff;
+  width: 730px;
+  cursor: pointer;
+}
+.column {
+  width: 100px;
+  display: inline-block;
+}
+.column:hover circle.free {
+  fill: #36342d;
+}
+circle.free {
+  fill: #f5ecce;
+}
+circle.red {
+  fill: #ed645a;
+}
+circle.yellow {
+  fill: #edcb5a;
+}
